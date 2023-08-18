@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*body{
+    min-height: 100vh;
+    background-color: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caliculator{
+    width: 300px;
+    height: 570px;
+    box-shadow: 4px 4px 30px rgb(0,0,0,0.3);
+    border-radius: 12px;
+    background: #22252d;
+    overflow: hidden;
+}
+form input{
+    width: 89%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+    background: #000;
+    text-align: right;
+    pointer-events: none;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    width: 50px;
+    height: 62px;
+    font-size: 22px;
+    font-weight: 600px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.btn-orange{
+    color: white;
+    background-color: orange;
+}
+.btn-grey{
+    color: white;
+    background-color: grey;
+}
+.btn-equal{
+    color: white;
+    background-color: green;
+}
+.btn-clear{
+    color: white;
+    background-color:red;
+} */
+
+
+/*------------------------------------------------- caliculatror2---------------------------- */
+.caliculator {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px 8px 0 0;
+    background: white;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.4);
+}
+.display {
+    background-color: #413e3e;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap:1px;
+}
+.row button{
+    width: 75px;
+    height: 75px;
+    border-radius: 0 0 0 0;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s all linear;
+}
+.clear{
+    background-color: orange;
+}
+.delete{
+    background-color: red;
+}
+.row button:hover{
+    background-color: #e0e0e0;
+}
+.row button:active{
+    background-color: #eeb3b3;
+}
+#equal{
+    width: 150px;
+    background-color: green;
+}
+#dot{
+    background-color: yellow;
+    font-weight: 600px;
+}

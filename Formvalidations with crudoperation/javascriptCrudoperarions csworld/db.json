@@ -1,0 +1,32 @@
+{
+  "Mobiles": [
+    {
+      "name": "Samsung F41",
+      "price": "15000",
+      "ram": "16",
+      "storage": "128",
+      "id": 0
+    },
+    {
+      "name": "Samsung F42",
+      "price": "15500",
+      "ram": "8",
+      "storage": "32",
+      "id": 1
+    },
+    {
+      "name": "Samsung F43",
+      "price": "15000",
+      "storage": "32",
+      "ram": "4",
+      "id": 2
+    },
+    {
+      "name": "Samsung F44",
+      "price": "15000",
+      "storage": "32",
+      "ram": "16",
+      "id": 3
+    }
+  ]
+}

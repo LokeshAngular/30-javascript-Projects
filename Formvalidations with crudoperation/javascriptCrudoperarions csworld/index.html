@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>crud</title>
+</head>
+
+<body>
+    <div class="container mob-table">
+        <div class="headers">
+            <h2 class="table-title">Manage Mobiles</h2>
+            <button class="btn add">AddMobiles</button>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>Mobile</td>
+                    <td>Price</td>
+                    <td>Ram</td>
+                    <td>storage</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-wraper">
+        <div class="mobile-form">
+            <div class="group" style="display:none;">
+                <label for="id">Id</label>
+                <input type="text" class="form-control" id="id" required minlength="5">
+            </div>
+            <div class="group">
+                <label for="mobile">Mobile</label>
+                <input type="text" class="form-control" id="mobile" required minlength="5">
+            </div>
+            <div class="group">
+                <label for="price">Price</label>
+                <input type="number" class="form-control" id="price" required minlength="1000">
+            </div>
+            <div class="group">
+                <label for="ram">Ram</label>
+                <input type="number" class="form-control" id="ram" required minlength="1">
+            </div>
+            <div class="group">
+                <label for="storage">Storage</label>
+                <input type="number" class="form-control" id="storage" required minlength="1">
+            </div>
+
+            <div class="actionButtons">
+                <button type="button" class="btn btn-primary save" onclick="Savechanges()">Save Changes</button>
+                <button type="button" class="btn btn-danger Cancel" onclick="Cancel()" >Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
